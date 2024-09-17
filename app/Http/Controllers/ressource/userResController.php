@@ -13,10 +13,9 @@ class userResController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index(): View
-    {
+    public function index(): View{
         //
-        $users = User::all();
+        // $users = User::all();
         return view('user.index');
     }
 

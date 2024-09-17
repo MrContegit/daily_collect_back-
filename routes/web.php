@@ -15,5 +15,4 @@ Route::get('/', function () {
 Route::apiResource("user",userController::class);
 Route::apiResource("user",userResController::class);
 Route::apiResource("transaction",transactionController::class);
-
 Route::apiResource("client",clientController::class);
